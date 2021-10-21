@@ -1,0 +1,55 @@
+ex00:
+ssh bandit0@bandit.labs.overthewire.org -p 2220
+Mot de passe: boJ9jbbUNNfktd78OOpsqOltutMc3MY1
+
+On a le droit de parler à l'écrit, demande
+
+ex01
+cat ./-
+Mot de passe: CV1DtqXWVFXTvM2F0k09SHz0YwRINYA9
+
+ex02
+cat  spaces\ in\ this\ filename
+Mot de passe: UmHadQclWmgdLOKQ3YNgjWxGoRMb5luK
+
+ex03
+cat inhere/.hidden
+Mot de passe: pIwrPrtPN36QITSp3EQaw936yaFoFgAB
+
+ex04
+cat ./inhere/file0*
+Mot de passe: koReBOKuIDDepwhWk7jZC0RTdopnAYKh
+
+ex05
+cat ./maybehere07/.file2
+Mot de passe: DXjZPULLxYr17uwoI01bNLQbtFemEgo7
+
+ex06
+cat /var/lib/dpkg/info/bandit7.password
+Mot de passe: HKBPTKQnIay4Fw76bEy8PVxKEDQRKTzs
+
+ex07
+grep millionth data.txt
+Mot de passe: cvX2JJa4CFALtqS87jk27qwqGhBM9plV
+
+ex08
+sort x.txt |uniq -u
+Mot de passe: UsvVyFSfZZWbi6wgC7dAFyFuR6jQQUhR
+
+ex09
+sort data.txt (vu en lisant)
+Mot de passe: truKLdjsbJ5g7yyJ2X2R0o3a5HQJFuLk
+
+ex10
+base64 -d data.txt 
+Mot de password: IFukwKGsFW8MOq3IRFqrxE1hxTNEbUPR
+
+ex11
+cat data.txt | tr 'A-Za-z' 'N-ZA-Mn-za-m'
+Mot de passe: 5Te8Y4drgCRfCx8ugdwuEX8KFC6k2EUu
+
+ex12
+Demandé
+Mot de passe 8ZjyCRiBWFYkneahHwxCv3wb2a1ORpYL
+
+ex13
